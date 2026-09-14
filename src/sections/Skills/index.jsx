@@ -2,7 +2,7 @@ import "./skills-styles.css";
 
 import { Badge } from "../../components/Badge";
 import { SubTitle } from "../../components/SubTitle";
-import { SkillCategory } from "../../components/Skills/SkillCategory";
+import { SkillCategory } from "../../components/SkillCategory";
 
 import database from "../../assets/icons/database.svg";
 import laptop from "../../assets/icons/laptop.svg";

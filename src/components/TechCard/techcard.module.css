@@ -1,6 +1,6 @@
 /* TECH STACK GRID */
 
-.techCard {
+.tech-card {
     background: var(--bg-secondary);
     border: 1px solid var(--border-color);
     padding: 10px 16px;
@@ -14,11 +14,11 @@
     transition: border-color 0.2s, transform 0.2s;
 }
 
-.techCard i {
+.tech-card i {
     font-size: 1.2rem;
 }
 
-.techCard:hover {
+.tech-card:hover {
     border-color: var(--accent-blue);
     transform: translateY(-2px);
 }

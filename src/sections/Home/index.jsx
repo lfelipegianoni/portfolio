@@ -1,7 +1,7 @@
 import "./home-styles.css";
 
 import { Badge } from "../../components/Badge";
-import { TechCard } from "../../components/Home/TechCard";
+import { TechCard } from "../../components/TechCard";
 
 import download from "../../assets/icons/download.svg";
 import mail from "../../assets/icons/mail.svg";
@@ -54,7 +54,7 @@ export function Home() {
                   nameIcon="devicon-git-plain colored" 
                   nameTech="Git"
                 />
-                <TechCard 
+                <TechCard
                   nameIcon="devicon-docker-plain colored" 
                   nameTech="Docker"
                 />

@@ -1,15 +1,16 @@
-import "./skill-category-styles.css"
+import styles from "./skillcategory.module.css"
 
 export function SkillCategory({ icon, title, skills }) {
     return (
-        <div className="skill-category">
+        /*styles['form-wrapper'] */
+        <div className={styles['skill-category']}>
             <h3>
                 <img src={icon} alt=""/> {title}
             </h3>
 
-            <div className="tags-container">
+            <div className={styles['tags-container']}>
                 {skills.map((skill) => (
-                    <span className="skill-tag" key={skill}>
+                    <span className={styles['skill-tag']} key={skill}>
                         {skill}
                     </span>
                 ))}
