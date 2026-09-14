@@ -2,7 +2,7 @@ import "./project-styles.css";
 
 import { Badge } from "../../components/Badge";
 import { SubTitle } from "../../components/SubTitle";
-import { ProjectCard } from "../../components/Project/ProjectCard";
+import { ProjectCard } from "../../components/ProjectCard";
 
 export function Project (){
     return(

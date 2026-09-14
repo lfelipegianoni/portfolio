@@ -1,4 +1,4 @@
-.project-card {
+.projectCard {
     background: var(--bg-secondary);
     border: 1px solid var(--border-color);
     border-radius: 12px;
@@ -9,58 +9,58 @@
     transition: transform 0.2s, border-color 0.2s;
 }
 
-.project-card:hover {
+.projectCard:hover {
     transform: translateY(-4px);
     border-color: var(--accent-blue);
 }
 
-.project-header {
+.projectHeader {
     display: flex;
     justify-content: space-between;
     align-items: center;
     margin-bottom: 20px;
 }
 
-.project-header i.folder {
+.projectHeader i.folder {
     font-size: 2rem;
     color: var(--accent-blue);
 }
 
-.project-links {
+.projectLinks {
     display: flex;
     justify-content: center;
 }
 
-.project-links a {
+.projectLinks a {
     color: var(--text-secondary);
     font-size: 1.2rem;
     margin-left: 12px;
     transition: color 0.2s;
 }
 
-.project-links a img{
+.projectLinks a img{
     width: 25px;
 }
 
-.project-links a img:hover{
+.projectLinks a img:hover{
     filter: brightness(0) invert(1);
     cursor: pointer;
 }
 
-.project-title {
+.projectTitle {
     font-size: 1.3rem;
     font-weight: 700;
     color: var(--text-primary);
     margin-bottom: 12px;
 }
 
-.project-desc {
+.projectDesc {
     color: var(--text-secondary);
     font-size: 0.95rem;
     margin-bottom: 24px;
 }
 
-.project-techs {
+.projectTechs {
     display: flex;
     flex-wrap: wrap;
     gap: 8px;
@@ -69,7 +69,7 @@
     color: var(--text-muted);
 }
 
-.project-techs span {
+.projectTechs span {
     background: var(--bg-primary);
     padding: 4px 10px;
     border-radius: 4px;
