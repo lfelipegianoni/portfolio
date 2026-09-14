@@ -1,9 +1,9 @@
-import "./badge-styles.css";
+import styles from "./badge.module.css";
 
 export function Badge ({name}){
     return(
         <div>
-            <span className="badge">{name}</span>
+            <span className={styles.badge}>{name}</span>
         </div>
     )
 }
