@@ -1,15 +1,6 @@
 /* TECH STACK GRID */
 
-.tech-title {
-    font-family: var(--font-mono);
-    font-size: 0.85rem;
-    color: var(--text-muted);
-    text-transform: uppercase;
-    letter-spacing: 1.5px;
-    margin-bottom: 16px;
-}
-
-.tech-card {
+.techCard {
     background: var(--bg-secondary);
     border: 1px solid var(--border-color);
     padding: 10px 16px;
@@ -23,11 +14,11 @@
     transition: border-color 0.2s, transform 0.2s;
 }
 
-.tech-card i {
+.techCard i {
     font-size: 1.2rem;
 }
 
-.tech-card:hover {
+.techCard:hover {
     border-color: var(--accent-blue);
     transform: translateY(-2px);
 }

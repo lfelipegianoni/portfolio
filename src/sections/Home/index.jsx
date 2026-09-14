@@ -19,7 +19,7 @@ export function Home() {
 
             <div className="hero-actions">
                 <a href="https://www.linkedin.com/in/luis-felipe-dos-santos-gianoni-5494ab257" target="#" className="btn btn-primary">
-                  <i class="devicon-linkedin-plain"></i>
+                  <i className="devicon-linkedin-plain"></i>
                   LinkedIn
                 </a>
                 <a href={cv} download className="btn btn-secondary">
@@ -42,7 +42,7 @@ export function Home() {
                   nameIcon="devicon-html5-plain colored" 
                   nameTech="HTML5"
                 />
-                <TechCard 
+                <TechCard
                   nameIcon="devicon-css3-plain colored" 
                   nameTech="CSS3"
                 />

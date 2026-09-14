@@ -32,10 +32,10 @@ export function Footer() {
           <h4>Redes sociais</h4>
           <div className="social-icons">
             <a href="https://www.linkedin.com/in/luis-felipe-dos-santos-gianoni-5494ab257" target="_blank" rel="noreferrer" aria-label="LinkedIn">
-              <i class="devicon-linkedin-plain"></i>
+              <i className="devicon-linkedin-plain"></i>
             </a>
             <a href="https://github.com/lfelipegianoni" target="_blank" rel="noreferrer" aria-label="GitHub">
-              <i class="devicon-github-original"></i>
+              <i className="devicon-github-original"></i>
             </a>
           </div>
         </div>
