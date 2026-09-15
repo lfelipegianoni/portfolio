@@ -1,4 +1,4 @@
-import "./project-styles.css";
+import styles from "./project.module.css";
 
 import { Badge } from "../../components/Badge";
 import { SubTitle } from "../../components/SubTitle";
@@ -6,10 +6,10 @@ import { ProjectCard } from "../../components/ProjectCard";
 
 export function Project (){
     return(
-        <section id="projects" className="projects">
+        <section id="projects" className={styles.projects}>
             <Badge name="My Projects"/>
             <SubTitle name="Featured Projects"/>
-            <div className="projects-grid">
+            <div className={styles['projects-grid']}>
                 <ProjectCard
                     siteHref="https://lfelipegianoni.github.io/pesquisa-culturama/"
                     gitHref="https://github.com/lfelipegianoni/pesquisa-culturama"
