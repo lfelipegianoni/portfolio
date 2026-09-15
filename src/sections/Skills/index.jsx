@@ -1,4 +1,4 @@
-import "./skills-styles.css";
+import styles from "./skills.module.css";
 
 import { Badge } from "../../components/Badge";
 import { SubTitle } from "../../components/SubTitle";
@@ -8,12 +8,12 @@ import database from "../../assets/icons/database.svg";
 import laptop from "../../assets/icons/laptop.svg";
 import manufacturing from "../../assets/icons/manufacturing.svg";
 
-export function Skills (){
-    return(
-        <section id="skills" className="skills">
-            <Badge name="My Skills"/>
-            <SubTitle name="Habilidades e Tecnologias"/>
-            <div className="skills-grid">
+export function Skills() {
+    return (
+        <section id="skills" className={styles.skills}>
+            <Badge name="My Skills" />
+            <SubTitle name="Habilidades e Tecnologias" />
+            <div className={styles['skills-grid']}>
                 <SkillCategory
                     icon={laptop}
                     title="Front-End & Design"
