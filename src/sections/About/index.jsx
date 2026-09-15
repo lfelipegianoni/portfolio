@@ -1,14 +1,14 @@
 import { Badge } from "../../components/Badge";
 import { SubTitle } from "../../components/SubTitle";
-import "./about-styles.css";
+import styles from "./about.module.css";
 
 export function About (){
     return(
-        <section id="about" className="about">
+        <section id="about" className={styles.about}>
             <Badge name="ABOUT ME"/>
             <SubTitle name="Experiência"/>
-            <div className="about-grid">
-                <div className="about-text">
+            <div className={styles['about-grid']}>
+                <div className={styles['about-text']}>
                     <p>
                         Me formei em <strong>Engenharia de Software pela FACENS (2020-2025)</strong>, com <strong>1 ano e 9 meses de experiência</strong> como estagiário, atuando como Desenvolvedor Full Stack na ETI Brasil, com foco em gestão da educação pública.
                     </p>
@@ -19,22 +19,22 @@ export function About (){
                         Atualmente, estou estudando para aprimorar meu inglês por meio da plataforma Hotmart, fazendo o curso Cronograma dos Fluentes, e estou em busca de novas oportunidades como desenvolvedor.
                     </p>
                 </div>
-                <div className="about-highlights">
-                    <div className="stat-card">
-                        <div className="number">Estagio</div>
-                        <div className="label">1 Ano e 9 meses como Full-Stack</div>
+                <div className={styles['about-highlights']}>
+                    <div className={styles['stat-card']}>
+                        <div className={styles.number}>Estagio</div>
+                        <div className={styles.label}>1 Ano e 9 meses como Full-Stack</div>
                     </div>
-                    <div className="stat-card">
-                        <div className="number">Graduação</div>
-                        <div className="label">Engenharia da Computação</div>
+                    <div className={styles['stat-card']}>
+                        <div className={styles.number}>Graduação</div>
+                        <div className={styles.label}>Engenharia da Computação</div>
                     </div>
-                    <div className="stat-card">
-                        <div className="number">4+</div>
-                        <div className="label">Projetos </div>
+                    <div className={styles['stat-card']}>
+                        <div className={styles.number}>4+</div>
+                        <div className={styles.label}>Projetos </div>
                     </div>
-                    <div className="stat-card">
-                        <div className="number">Ingles</div>
-                        <div className="label">Atualmente no B1</div>
+                    <div className={styles['stat-card']}>
+                        <div className={styles.number}>Ingles</div>
+                        <div className={styles.label}>Atualmente no B1</div>
                     </div>
                 </div>
             </div>
