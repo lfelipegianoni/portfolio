@@ -1,4 +1,4 @@
-import "./home-styles.css";
+import styles from "./home.module.css";
 
 import { Badge } from "../../components/Badge";
 import { TechCard } from "../../components/TechCard";
@@ -10,30 +10,30 @@ import cv from "../../assets/documents/curriculo.pdf"
 
 export function Home() {
   return (
-    <section id="home" className="hero"> 
+    <section id="home" className={styles.hero}> 
             <Badge name="I'M SOFTWARE ENGINEER"/>
-            <h1>Olá, meu nome é Luis Felipe<br/><span className="sss">Eu crio coisas para a web.</span></h1>
-            <p className="subtitle">
+            <h1>Olá, meu nome é Luis Felipe<br/><span>Eu crio coisas para a web.</span></h1>
+            <p className={styles.subtitle}>
                 Desenvolvedor Full-Stack e Engenheiro de Computação especializado na criação de interfaces modernas e responsivas, além de sistemas ERP eficientes, utilizando React, JavaScript, TypeScript e UI/UX.
             </p>
 
-            <div className="hero-actions">
-                <a href="https://www.linkedin.com/in/luis-felipe-dos-santos-gianoni-5494ab257" target="#" className="btn btn-primary">
+            <div className={styles['hero-actions']}>
+                <a href="http s://www.linkedin.com/in/luis-felipe-dos-santos-gianoni-5494ab257" target="#" className={`${styles.btn} ${styles['btn-primary']}`}>
                   <i className="devicon-linkedin-plain"></i>
                   LinkedIn
                 </a>
-                <a href={cv} download className="btn btn-secondary">
+                <a href={cv} download className={`${styles.btn} ${styles['btn-secondary']}`}>
                   <img src={download} alt=""/>
                   Download CV
                 </a>
-                <a href="#contact" className="btn btn-secondary">
+                <a href="#contact" className={`${styles.btn} ${styles['btn-secondary']}`}>
                   <img src={mail} alt=""/>
                   Contato
                 </a>
             </div>
-            <div className="tech-title">Tecnologias | Trabalho com</div>
-            <div className="tech-section">
-              <div className="tech-icons">
+            <div className={styles['tech-title']}>Tecnologias | Trabalho com</div>
+            <div className={styles['tech-section']}>
+              <div className={styles['tech-icons']}>
                 <TechCard
                   nameIcon="devicon-javascript-plain colored" 
                   nameTech="React"
