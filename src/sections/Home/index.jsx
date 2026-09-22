@@ -35,8 +35,40 @@ export function Home() {
             <div className={styles['tech-section']}>
               <div className={styles['tech-icons']}>
                 <TechCard
+                  nameIcon="devicon-nextjs-plain colored" 
+                  nameTech="Next.js"
+                />
+                <TechCard
                   nameIcon="devicon-javascript-plain colored" 
                   nameTech="React"
+                />
+                <TechCard
+                  nameIcon="devicon-express-original colored" 
+                  nameTech="Express"
+                />
+                <TechCard
+                  nameIcon="devicon-javascript-plain colored" 
+                  nameTech="JavaScript"
+                />
+                <TechCard
+                  nameIcon="devicon-typescript-plain colored" 
+                  nameTech="TypeScript"
+                />
+                <TechCard 
+                  nameIcon="devicon-python-plain colored" 
+                  nameTech="Python"
+                />
+                <TechCard 
+                  nameIcon="devicon-mysql-plain colored" 
+                  nameTech="MySQL"
+                />
+                <TechCard 
+                  nameIcon="devicon-microsoftsqlserver-plain colored" 
+                  nameTech="SQLServer"
+                />
+                <TechCard 
+                  nameIcon="devicon-figma-plain colored" 
+                  nameTech="Figma"
                 />
                 <TechCard
                   nameIcon="devicon-html5-plain colored" 
@@ -46,10 +78,14 @@ export function Home() {
                   nameIcon="devicon-css3-plain colored" 
                   nameTech="CSS3"
                 />
-                <TechCard 
-                  nameIcon="devicon-figma-plain colored" 
-                  nameTech="Figma"
+                <TechCard
+                  nameIcon="devicon-tailwindcss-original colored" 
+                  nameTech="TailWind"
                 />
+                <TechCard 
+                  nameIcon="devicon-bootstrap-plain colored" 
+                  nameTech="Bootstrap"
+                /> 
                 <TechCard 
                   nameIcon="devicon-git-plain colored" 
                   nameTech="Git"
@@ -58,18 +94,6 @@ export function Home() {
                   nameIcon="devicon-docker-plain colored" 
                   nameTech="Docker"
                 />
-                <TechCard 
-                  nameIcon="devicon-python-plain colored" 
-                  nameTech="Python"
-                /> 
-                <TechCard 
-                  nameIcon="devicon-mysql-plain colored" 
-                  nameTech="MySQL"
-                />
-                <TechCard 
-                  nameIcon="devicon-bootstrap-plain colored" 
-                  nameTech="Bootstrap"
-                /> 
               </div>
             </div>
         </section>

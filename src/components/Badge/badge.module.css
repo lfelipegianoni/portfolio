@@ -1,4 +1,4 @@
-.badge {
+.badge span {
     display: inline-block;
     background-color: #1f2937;
     color: var(--text-primary);
