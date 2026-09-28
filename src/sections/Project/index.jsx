@@ -23,13 +23,15 @@ export function Project (){
                     ]}
                 />
                 <ProjectCard
-                    siteHref="https://lfelipegianoni.github.io/jornada-viagens/"
-                    gitHref="https://github.com/lfelipegianoni/jornada-viagens"
-                    title="Jornada Viagens"
-                    description="Landing page com diversos cards e textos, implementada com media queries para garantir responsividade em diferentes dispositivos."
+                    siteHref="https://lfelipegianoni.github.io/poupapp2/"
+                    gitHref="https://github.com/lfelipegianoni/poupapp2"
+                    title="Poupapp2"
+                    description="Dashboard financeiro desenvolvido em React, com foco na construção de interfaces e componentes reutilizáveis, utilizando Tailwind CSS para estilização e responsividade."
                     tags={[
+                        "React",
+                        "JavaScript",
                         "HTML",
-                        "CSS",
+                        "Tailwind",
                         "UI/UX",
                         "GitHub Pages"
                     ]}
@@ -43,7 +45,7 @@ export function Project (){
                         "React",
                         "JavaScript",
                         "HTML",
-                        "CSS",
+                        "CSS Modules    ",
                         "UI/UX",
                         "GitHub Pages",
                         "Devicon",
