@@ -11,7 +11,7 @@ export function ProjectCard({siteHref,gitHref,title,description,tags}) {
             <div>
                 <div className={styles['project-header']}>
                     <img className="fa-regular fa-folder-closed folder" src={folder} alt=""/>
-                    <div className="projectLinks">
+                    <div className={styles['project-links']}>
                         <a href={siteHref}  target="_blank" title="site do projeto"><img src={site} alt="" /></a>
                         <a href={gitHref}  target="_blank" title="pasta do projeto"><img src={github} alt="" /></a>
                     </div>
