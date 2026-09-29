@@ -19,6 +19,7 @@ export function Skills() {
                     title="Front-End & Design"
                     skills={[
                         "React",
+                        "Next.js",
                         "JavaScript (ES6+)",
                         "TypeScript",
                         "HTML5 & CSS3",
@@ -32,6 +33,7 @@ export function Skills() {
                     icon={database}
                     title="Backend & Database"
                     skills={[
+                        "Express",
                         "APIs REST",
                         "MySQL",
                         "SQL Server",

@@ -13,7 +13,7 @@ export function About (){
                         Me formei em <strong>Engenharia de Software pela FACENS (2020-2025)</strong>, com <strong>1 ano e 9 meses de experiência</strong> como estagiário, atuando como Desenvolvedor Full Stack na ETI Brasil, com foco em gestão da educação pública.
                     </p>
                     <p>
-                        During my internship experience, I worked with (UI/UX), Figma, React, Bootstrap, JavaScript, HTML5, CSS3, C#, Flutter, process mapping, customer support, and Trello using Agile methodologies.
+                        Durante minha experiência de estágio, trabalhei com UI/UX, Figma, React, Bootstrap, JavaScript, HTML5, CSS3, C#, Flutter, mapeamento de processos e suporte ao cliente, utilizando o Trello e metodologias ágeis.
                     </p>
                     <p>
                         Atualmente, estou estudando para aprimorar meu inglês por meio da plataforma Hotmart, fazendo o curso Cronograma dos Fluentes, e estou em busca de novas oportunidades como desenvolvedor.
@@ -29,7 +29,7 @@ export function About (){
                         <div className={styles.label}>Engenharia da Computação</div>
                     </div>
                     <div className={styles['stat-card']}>
-                        <div className={styles.number}>4+</div>
+                        <div className={styles.number}>16+</div>
                         <div className={styles.label}>Projetos </div>
                     </div>
                     <div className={styles['stat-card']}>

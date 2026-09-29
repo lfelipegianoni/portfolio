@@ -12,9 +12,9 @@ export function Home() {
   return (
     <section id="home" className={styles.hero}> 
             <Badge name="I'M SOFTWARE ENGINEER"/>
-            <h1>Olá, meu nome é Luis Felipe<br/><span>Eu crio coisas para a web.</span></h1>
+            <h1>Luis Felipe dos Santos Gianoni<br/><span>Desenvolvedor Full Stack</span></h1>
             <p className={styles.subtitle}>
-                Desenvolvedor Full-Stack e Engenheiro de Computação especializado na criação de interfaces modernas e responsivas, além de sistemas ERP eficientes, utilizando React, JavaScript, TypeScript e UI/UX.
+                Sou desenvolvedor formado em Engenharia da Computação, com 1 ano e 9 meses de experiência na área de desenvolvimento. Neste portfólio, você poderá conhecer um pouco mais sobre mim, minhas habilidades e os projetos mais recentes nos quais venho trabalhando.
             </p>
 
             <div className={styles['hero-actions']}>
