@@ -4,16 +4,25 @@ import folder from "../../assets/icons/folder_open.svg";
 import github from "../../assets/icons/github-brands-solid-full.svg"
 import site from "../../assets/icons/globe-solid-full.svg"
 
-export function ProjectCard({siteHref,gitHref,title,description,tags}) {
+export function ProjectCard({ siteHref, gitHref, title, description, tags }) {
 
-    return(
+    return (
         <div className={styles['project-card']}>
             <div>
                 <div className={styles['project-header']}>
-                    <img className="fa-regular fa-folder-closed folder" src={folder} alt=""/>
+                    <img className="fa-regular fa-folder-closed folder" src={folder} alt="" />
                     <div className={styles['project-links']}>
-                        <a href={siteHref}  target="_blank" title="site do projeto"><img src={site} alt="" /></a>
-                        <a href={gitHref}  target="_blank" title="pasta do projeto"><img src={github} alt="" /></a>
+                        {siteHref && (
+                            <a href={siteHref} target="_blank" rel="noopener noreferrer" title="site do projeto">
+                                <img src={site} alt="Site do projeto"/>
+                            </a>
+                        )}
+
+                        {gitHref && (
+                            <a href={gitHref} target="_blank" rel="noopener noreferrer" title="GitHub do projeto">
+                                <img src={github} alt="GitHub do projeto"/>
+                            </a>
+                        )}
                     </div>
                 </div>
                 <h3 className={styles['project-title']}>{title}</h3>

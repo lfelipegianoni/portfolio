@@ -11,15 +11,16 @@ export function Project (){
             <SubTitle name="Featured Projects"/>
             <div className={styles['projects-grid']}>
                 <ProjectCard
-                    siteHref="https://lfelipegianoni.github.io/pesquisa-culturama/"
-                    gitHref="https://github.com/lfelipegianoni/pesquisa-culturama"
-                    title="Pesquisa-Culturama"
-                    description="Formulário de pesquisa de opinião desenvolvido para o registro e organização de informações, contendo diferentes tipos de campos e elementos de interação, como campos de texto, seleção de datas por calendário, upload de imagens, select, radio buttons, checkboxes e paleta de cores."
+                    gitHref="https://github.com/lfelipegianoni/api-node-express"
+                    title="API-Node-Express"
+                    description="Projeto com implementação completa de um CRUD, tratamento de erros e arquitetura MVC, desenvolvido com Express e Node.js, utilizando Mongoose conectado a um banco de dados MongoDB."
                     tags={[
-                        "HTML",
-                        "CSS",
-                        "UI/UX",
-                        "GitHub Pages"
+                        "Node.js",
+                        "Express",
+                        "API Rest",
+                        "JavaScript",
+                        "Mongoose",
+                        "MVC"
                     ]}
                 />
                 <ProjectCard
